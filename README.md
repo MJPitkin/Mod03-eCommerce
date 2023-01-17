@@ -35,6 +35,8 @@ JavaScript, HTML, CSS, Express, MongoDB, React.js, Discogs public API.
 
 # Planning
 
+![wireframe](images/wireframe.png)
+
 Planning consisted of three forks; the user facing front end, the database models and relations, and a set of user stories to help us conceptualise the needs of the user and determine which features were essential and which others could be considered for later expansion. In my case, I focused primarily on the planning of the front end, with the user control panel, basket, checkout and sign up/login pages being my contribution.
 
 # Build Process
@@ -77,7 +79,7 @@ Login page:
 
 
 
-
+![Login Page](images/login.png)
 
 
 
@@ -143,7 +145,7 @@ function SignupForm({ updateMessage }) {
 ```
 Sign up page:
 
-
+![sign up page](images/signup.png)
 
 An issue that cropped up when I was setting up the user page was working out a means of securely storing sensitive data that would be used on an e-commerce site, billing details in particular. Were these stored on our own server, we would need to ensure they were properly encrypted, decrypted only when the correct client receives them, and so on. After discussing this with my tutor, I concluded it would be best practice to use an already verified third party payment processing system, rather than trying to build my own from scratch. In this instance I elected to use Stripe. After that I moved onto getting the functional components of the basket and checkout sorted, including calculation of the subtotal and passing that total along to the checkout page for later payment integration.
 
@@ -244,7 +246,7 @@ There was one final group coding session wherein we tracked down and fixed the n
 
 User dashboard; Account security update form:
 
-
+![user dashboard](images/dashboard.png)
 
 
 
@@ -254,7 +256,7 @@ User dashboard; Account security update form:
 
 Checkout, with Stripe payment element:
 
-
+![checkout](images/checkout.png)
 
 
 
@@ -277,7 +279,7 @@ Checkout, with Stripe payment element:
 
 User basket:
 
-
+![basket](images/basket.png)
 
 # Challenges
 
