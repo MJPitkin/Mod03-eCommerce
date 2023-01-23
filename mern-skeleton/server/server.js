@@ -28,7 +28,7 @@ app.use(cors());
 app.use(auth);
 
 // Proxy
-app.use(favicon(join(__dirname, "..", "client", "build", "favicon.ico")));
+// app.use(favicon(join(__dirname, "..", "client", "build", "favicon.ico")));
 app.use(express.static(join(__dirname, "..", "client", "build")));
 
 // Put API routes here, before the "catch all" route
