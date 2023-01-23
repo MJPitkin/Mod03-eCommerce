@@ -1,6 +1,6 @@
 import tokenService from "./tokenService.js";
-
-const BASE_URL = "/api/users/"; // Note: Once deployed this should be updated.
+import { BACKEND_URL } from "./constants.js";
+const BASE_URL = BACKEND_URL + "/api/users/"; // Note: Once deployed this should be updated.
 
 function signup(user) {
   return fetch(BASE_URL + "signup", {

@@ -1,7 +1,8 @@
 import collection from "./collection.js";
 import userService from "./userService.js";
 import cart from "./cart.js";
-const BASE_URL = "/api/listings/";
+import { BACKEND_URL } from "./constants.js";
+const BASE_URL = BACKEND_URL + "/api/listings/";
 
 /* ---------------------------- listings in cart ---------------------------- */
 

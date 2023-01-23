@@ -1,4 +1,5 @@
-const BASE_URL = "/api/cart/";
+import { BACKEND_URL } from "./constants";
+const BASE_URL = BACKEND_URL + "/api/cart/";
 
 function createCart(ownerId) {
   let cart = {};

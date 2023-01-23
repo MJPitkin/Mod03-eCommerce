@@ -1,4 +1,5 @@
-const BASE_URL = "/api/collections/";
+import { BACKEND_URL } from "./constants";
+const BASE_URL = BACKEND_URL + "/api/collections/";
 
 // create collection for user
 //

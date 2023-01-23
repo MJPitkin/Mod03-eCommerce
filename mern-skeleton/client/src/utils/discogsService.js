@@ -1,4 +1,5 @@
-const BASE_URL = "/api/discogs/";
+import { BACKEND_URL } from "./constants";
+const BASE_URL = BACKEND_URL + "/api/discogs/";
 
 // required parameter: album id (number), returns album object
 function getAlbumById(albumId) {
